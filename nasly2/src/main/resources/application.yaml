@@ -1,3 +1,14 @@
+server:
+  port: 8080
+
 spring:
   application:
     name: nasly2
+  datasource:
+    url: jdbc:mysql://localhost:3306/carvajal_listadeseos1
+    username: root
+    password: 1234
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
